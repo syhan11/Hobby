@@ -1,0 +1,36 @@
+body {
+    background-color: aliceblue;
+}
+
+.display-4 {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    padding-top: 30px;
+}
+
+.jumbotron {
+    background: transparent !important;
+    font-family: 'Rum Raisin', sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    alignment: center;
+    width: 100%;
+}
+
+.background_img{
+    alignment: center;
+}
+
+.card {
+    width: 400px;
+    alignment: center;
+}
+
+#quotes {
+    font-family: 'Italianno', cursive;
+    text-align: center;
+    padding: 20px;
+}

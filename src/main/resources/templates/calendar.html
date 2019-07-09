@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+
+    <th::boothstrap_block th:replace="~{/base :: base_boothstrap_css}"></th::boothstrap_block>
+
+    <!--- My CSS --->
+    <link rel="stylesheet" type="text/css" href="hobbystyle.css">
+
+</head>
+<body>
+    <div th:insert="base :: base_navigator"></div>
+    <div class="jumbotron">
+        <h1 class="display-4" name="title">Calendar</h1>
+    </div>
+
+
+
+    <th::footer_block th:replace="~{/base :: base_footer}"></th::footer_block>
+    <th::boothstrap_block2 th:replace="~{/base :: base_boothstrap_style}"></th::boothstrap_block2>
+
+</body>
+</html>
