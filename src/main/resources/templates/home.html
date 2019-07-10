@@ -3,21 +3,12 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-    <title>Sue's View</title>
+    <title>Home</title>
 
     <th::boothstrap_block th:replace="~{/base :: base_boothstrap_css}"></th::boothstrap_block>
 
     <!--- My CSS --->
     <link rel="stylesheet" type="text/css" href="hobbystyle.css">
-
-
-
-    <style>
-
-    </style>
-
-
-
 </head>
 
 
@@ -27,18 +18,21 @@
     <div class="jumbotron">
         <h1 class="display-4" name="title">Sue's View of the World</h1>
     </div>
-    <div class="background_img">
-        <img src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_300/v1562703435/sbmu4y30bxlmc1u5ztqb.jpg"
-             alt="photo">
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <img src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_300/v1562703435/sbmu4y30bxlmc1u5ztqb.jpg"
+                     alt="photo">
+            </div>
+            <div class="col"></div>
+        </div>
+
+
     </div>
-
-
 
     <th::footer_block th:replace="~{/base :: base_footer}"></th::footer_block>
     <th::boothstrap_block2 th:replace="~{/base :: base_boothstrap_style}"></th::boothstrap_block2>
-
-
-
 
 </body>
 </html>

@@ -24,8 +24,7 @@ body {
     alignment: center;
 }
 
-.card {
-    width: 400px;
+#info_card{
     alignment: center;
 }
 
@@ -34,3 +33,16 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+/*
+ * Row with equal height columns
+ * --------------------------------------------------
+ */
+#row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+

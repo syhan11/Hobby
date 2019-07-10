@@ -24,4 +24,10 @@ public class HomeCtrol {
     public String aboutPage(){
         return ("about");
     }
+
+    @RequestMapping("/info")
+    public String photo1Page(){
+        return ("info");
+    }
+
 }

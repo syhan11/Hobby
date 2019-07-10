@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Info</title>
+
+    <th::boothstrap_block th:replace="~{/base :: base_boothstrap_css}"></th::boothstrap_block>
+
+    <!--- My CSS --->
+    <link rel="stylesheet" type="text/css" href="hobbystyle.css">
+
+</head>
+<body>
+
+<div th:insert="base :: base_navigator"></div>
+
+<div class="jumbotron">
+    <h1 class="display-4" name="title">Photo Info</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_300/v1562718219/20180410_DSC_1054-1.jpg"
+                     alt="Photo 1">
+                <div class="card-body">
+                    <h4 class="card-title">Escape</h4>
+                    <p class="card-text">Brookside Garden</p>
+                    <p class="card-text">Silver Spring, MD USA</p>
+                    <p class="card-text">May 2018</p>
+                    <p class="card-text">Other Info goes here!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_500/v1562718118/20180907_DSC_0763.jpg"
+                     alt="Photo 2">
+                <div class="card-body">
+                    <h4 class="card-title">Beezy</h4>
+                    <p class="card-text">Brookside Garden</p>
+                    <p class="card-text">Silver Spring, MD USA</p>
+                    <p class="card-text">May 2018</p>
+                    <p class="card-text">Other Info goes here!</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_500/v1562718078/20180907_DSC_0619.jpg"
+                     alt="Photo 3"/>
+                <div class="card-body">
+                    <h4 class="card-title">Broken Wing</h4>
+                    <p class="card-text">Brookside Garden</p>
+                    <p class="card-text">Silver Spring, MD USA</p>
+                    <p class="card-text">May 2018</p>
+                    <p class="card-text">Other Info goes here!</p>
+                </div>
+            </div>
+        </div>
+
+    </div> <!--- end of 1st row   --->
+    <br/>
+    <br/>
+    <div class="row">  <!-- Row 2 -->
+        <div class="col">
+            <div class="card" >
+                <img class="card-img-top"
+                     src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_500/v1562718055/20180907_DSC_0733.jpg"
+                     alt="Photo 4">
+                <div class="card-body">
+                    <h4 class="card-title">After Shower</h4>
+                    <p class="card-text">Brookside Garden</p>
+                    <p class="card-text">Silver Spring, MD USA</p>
+                    <p class="card-text">May 2018</p>
+                    <p class="card-text">Other Info goes here!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_500/v1562718010/20180721_DSC_0403.jpg"
+                     alt="Photo 5">
+                <div class="card-body">
+                    <h4 class="card-title">Reflection</h4>
+                    <p class="card-text">Canal</p>
+                    <p class="card-text">Great Falls, VA USA</p>
+                    <p class="card-text">June 2018</p>
+                    <p class="card-text">Other Info goes here!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_500/v1562717164/DSC_0092.jpg"
+                     alt="Photo 6"/>
+                <div class="card-body">
+                    <h4 class="card-title">Yellow Submarine</h4>
+                    <p class="card-text">Rio</p>
+                    <p class="card-text">Gaithersburg, MD USA</p>
+                    <p class="card-text">June 2019</p>
+                    <p class="card-text">Other Info goes here!</p>
+                </div>
+            </div>
+        </div>
+
+    </div> <!--- end of 2nd row   --->
+    <br/>
+    <br/>
+    <div class="row">   <!--- 3rd row--->
+        <div class="col">
+            <div class="card">
+                <img class="card-img-top"
+                     src="https://res.cloudinary.com/dpvaq7u3d/image/upload/c_scale,h_500/v1562717990/20180320_DSC_0672.jpg"
+                     alt="Photo 7">
+                <div class="card-body">
+                    <h4 class="card-title">Waiting for Spring</h4>
+                    <p class="card-text">Kings Farm</p>
+                    <p class="card-text">Rockville, MD USA</p>
+                    <p class="card-text">Jan 2018</p>
+                    <p class="card-text">Other Info goes here!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+
+    </div> <!--- end of 3rd row   --->
+
+
+</div>
+
+
+<th::footer_block th:replace="~{/base :: base_footer}"></th::footer_block>
+<th::boothstrap_block2 th:replace="~{/base :: base_boothstrap_style}"></th::boothstrap_block2>
+
+</body>
+</html>

@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Photo Gallery</title>
+    <title>About</title>
 
     <th::boothstrap_block th:replace="~{/base :: base_boothstrap_css}"></th::boothstrap_block>
 
@@ -11,29 +11,36 @@
 
 </head>
 <body>
-    <div th:insert="base :: base_navigator"></div>
-    <div class="jumbotron">
-        <h1 class="display-4" name="title">About</h1>
-    </div>
 
+<div th:insert="base :: base_navigator"></div>
 
+<div class="jumbotron">
+    <h1 class="display-4" name="title">About</h1>
+</div>
 
-    <div class="card" alignment="center">
-        <img class="card-img-top"
-             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnsh8Ba3OwmjYvcJFbWW6DWwtDV4eakjdZDfLhUVD7oYhYjA" alt="Card image" style="width:100%">
-        <div class ="card-body">
-            <h4 class="card-title">Sue Young Han</h4><br/>
-            <p class="card-text">sueyoung.6311@gmail.com</p>
-            <p class="card-text">301-742-1836</p>
+<div class="container">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col">
+            <div class="card" id="info_card">
+                <img class="card-img-top"
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAnsh8Ba3OwmjYvcJFbWW6DWwtDV4eakjdZDfLhUVD7oYhYjA"
+                     alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Sue Young Han</h4>
+                    <p class="card-text">sueyoung.6311@gmail.com</p>
+                    <p class="card-text">301-742-1836</p>
+                </div>
+            </div>
         </div>
-
+        <div class="col"></div>
     </div>
 
+</div>
 
 
-
-    <th::footer_block th:replace="~{/base :: base_footer}"></th::footer_block>
-    <th::boothstrap_block2 th:replace="~{/base :: base_boothstrap_style}"></th::boothstrap_block2>
+<th::footer_block th:replace="~{/base :: base_footer}"></th::footer_block>
+<th::boothstrap_block2 th:replace="~{/base :: base_boothstrap_style}"></th::boothstrap_block2>
 
 </body>
 </html>
